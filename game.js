@@ -582,8 +582,8 @@ function launchSecondEnemy() {
       enemy.body.velocity.y = verticalSpeed;
 
       //  Set up firing
-      let bulletSpeed = 300;
-      let firingDelay = 4000;
+      let bulletSpeed = 100;
+      let firingDelay = 6000;
       enemy.bullets = 1;
       enemy.lastShot = 0;
 
